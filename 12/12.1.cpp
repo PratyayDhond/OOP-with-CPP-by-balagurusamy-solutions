@@ -14,6 +14,11 @@ T min(T arr[],int n){
 int main(){
 	int arr[] = {5,1,12,6,18,10};
 	int n = sizeof(arr)/sizeof(arr[0]);
+	cout<<"Array : ";
+	for(int i = 0;i<n;i++){
+		cout<<arr[i]<<" ";
+	}
+	cout<<endl;
 	cout<<"Minimum element in array : "<<min(arr,n)<<endl;
 	
 
